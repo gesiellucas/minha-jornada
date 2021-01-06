@@ -1,5 +1,15 @@
 # Trilha do meu aprendizado
-Existem muiitas coisas que eu ainda tenho que aprender, confesso que só de pensar nisso sinto um leve arrepio, amo ser desafiado e sou apaixonado por descobrir coisas que são novas para mim. Aqui terei um rascunho das minhas habilidades que vou aprendendo com o tempo. É um repositório mais pessoal, mas sinta-se à vontade.
+Existem muitas coisas que eu ainda tenho que aprender, confesso que só de pensar nisso sinto um leve arrepio, amo ser desafiado e sou apaixonado por descobrir coisas novas. Aqui terei um rascunho das minhas habilidades que vou aprendendo com o tempo. É um repositório mais pessoal, mas sinta-se à vontade.
+
+___
+_Sumário_
+-----
+>1. [Git & Github](git--github)
+>>	1. [README.md](readme.md)
+>2. [CSS](CSS)
+>3. [HTML5](HTML5)
+***
+
 
 ## Git & GitHub
 Trabalho de diversos computadores diferentes então é comum eu precisar recorrer a algum projeto meu remoto que esteja alocado no github, mas sempre fico com uma leve dúvida, _push_ e _pull_, clone, watches, etc. Como base para escrever esse guia usarei a documentação do próprio GitHub. 
