@@ -1,0 +1,28 @@
+p{
+	text-align:center;
+}
+.container{
+	background: #ee4;
+	margin: 0 auto;
+	width: 400px;
+}
+.item{
+	text-align: center;
+	margin:5px;
+	background: #00EE99;
+}
+
+.flex{
+	display:flex;
+	flex-direction: row-reverse;
+}
+
+.flexwrap{
+	display:flex;
+	flex-wrap: wrap-reverse;
+}
+
+.flexjustify{
+	display:flex;
+	justify-content: space-around;
+}
