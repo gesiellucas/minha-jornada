@@ -5,6 +5,7 @@ Existem muiitas coisas que eu ainda tenho que aprender, confesso que só de pens
 Trabalho de diversos computadores diferentes então é comum eu precisar recorrer a algum projeto meu remoto que esteja alocado no github, mas sempre fico com uma leve dúvida, _push_ e _pull_, clone, watches, etc. Como base para escrever esse guia usarei a documentação do próprio GitHub. 
 #### Escrevendo um README:
 Para o uso de alguns shortcodes usarei o link [Basic Writing and Formating Sintax](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax). 
+Um uso mais completo do Markdown do GitHub para escrever um bom README inclui ainda a página [GitHub Flavored Markdown](https://github.github.com/gfm/).
 #### Como clonar um repositório?
 Abra o repositório, clique no botão **code** e copie o caminho de _clone HTTPS_.
 ```
@@ -20,6 +21,7 @@ git remote rm NOME-REMOTE
 
 ## CSS
 Conheço o CSS desde 2015 e desde então venho utilizando ele frequentemente. Existem algumas funções que há muito tempo não uso, e outras que desconheço.
+> Link para testes [aqui](index.html).
 
 #### FlexBox
 Material de apoio [FlexBox Origamid](https://origamid.com/projetos/flexbox-guia-completo/).
@@ -86,3 +88,21 @@ Ressaltando o `justify-content:space-between` pela possibilidade de criar menus 
 ```
 ## HTML5 
 Encontrei um Guia muito legal de HTML disponibilizado pela Hostinger, em pdf pelo link [HostingerBR HTML](https://github.com/hostinger/banners/blob/master/br/Guia-de-Refer%C3%AAncias-HTML-HostingerBR.pdf?raw=true)
+
+## Javascript
+Vou começar com algumas funções de array que são importantes para o estudo da linguagem.
+##### forEach
+Para cada item de um array execute a função determinada. Nesse exemplo aqui usaremos o array ´frutas´.
+```javascript
+let frutas = ['maca', 'uva', 'melancia', 'banana', 'caqui'];
+```
+Existem 5 elementos nesse array, e para cada um eu quero uma lista mostrando o índice e seu respectivo nome. Considerando que o índice começa com 0 somarei ele a um.
+```javascript
+function mostraFrutas(item, index){
+	let demo = document.getElementById('demo');
+  index++;
+  demo.innerHTML += index + ". " + item + "<br />";	
+}
+```
+
+
