@@ -36,7 +36,7 @@ Conheço o CSS desde 2015 e desde então venho utilizando ele frequentemente. Ex
 #### FlexBox
 Material de apoio [FlexBox Origamid](https://origamid.com/projetos/flexbox-guia-completo/).
 
-###### Display Flex
+##### Display Flex
 No display flex o conteúdo da TAG fica restrito somente ao seu tamanho.
 ```CSS
 .flex{
@@ -44,7 +44,7 @@ No display flex o conteúdo da TAG fica restrito somente ao seu tamanho.
 }
 ```
 
-###### Flex Direction
+##### Flex Direction
 Define a direção dos flex itens. Por padrão ele é row (linha), por isso quando o display: flex; é adicionado, os elementos ficam em linha, um do lado do outro.
 - **flex-direction: row-reverse**
 Muda a direção dos elementos, do último para o primeiro, inclusive a posição de _left_ para _right_.
@@ -70,7 +70,7 @@ Coloca os itens em posição de colunas, mas muda a direção do último para o 
 	flex-direction: column;
 }
 ```
-###### Flex Wrap
+##### Flex Wrap
 Define a quebra de linhas. Por padrão elas não quebram a linha, ou seja, continuam _inline_. 
 ```CSS
 .flexwrap{
@@ -86,7 +86,7 @@ Quando acontece a quebra de linha a mesma é feita em direção contrária.
 	flex-wrap: wrap-reverse;
 }
 ```
-###### Flex Justify Content
+##### Flex Justify Content
 Alinha os itens flex no container de acordo com a direção. Existem 5 valores para a propriedade `justify-content`. São elas `flex-start, flex-end, center, space-between e space-around`.
 Ressaltando o `justify-content:space-between` pela possibilidade de criar menus com ela.
 ```CSS
@@ -96,6 +96,23 @@ Ressaltando o `justify-content:space-between` pela possibilidade de criar menus 
 }
 
 ```
+##### Align Items
+Ajusta todos os filhos do elemento com a mesma altura, ou seja, _Height_ iguais, por padrão ele começa com o `align-items: stretch`. O alinhamento varia de acordo com o `flex-direction`.
+```CSS
+.align-items{
+	display:flex;
+	align-items: stretch;
+}
+```
+- **Flex Start **
+Alinha os items no início, de acordo com o elemento maior.
+```CSS
+.align-items{
+	display:flex;
+	align-items: flex-start;
+}
+```
+
 ## HTML5 
 Encontrei um Guia muito legal de HTML disponibilizado pela Hostinger, em pdf pelo link [HostingerBR HTML](https://github.com/hostinger/banners/blob/master/br/Guia-de-Refer%C3%AAncias-HTML-HostingerBR.pdf?raw=true)
 

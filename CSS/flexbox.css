@@ -26,3 +26,7 @@ p, h1, h2, h3{
 	display:flex;
 	justify-content: space-around;
 }
+.align-items{
+	display:flex;
+	align-items: stretch;
+}
